@@ -3,4 +3,5 @@ project(CPSC_323_Homework)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(CPSC_323_Homework main.cpp)
+add_executable(CPSC_323_Homework
+        lex.yy.c)
